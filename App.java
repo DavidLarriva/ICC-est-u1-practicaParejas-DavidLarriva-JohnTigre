@@ -7,7 +7,7 @@ public class App {
         MetodosOrdenamiento metodosOrdenamiento = new MetodosOrdenamiento();
         Utilidades utilidades = new Utilidades();
 
-        //utilidades.crearYvalidarNumeroIncluyendoCero();
+        //utilidades.crearYvalidarNumeroIncluyendoCero(); //////////
 
         int aux =0;
         boolean conf = false;
