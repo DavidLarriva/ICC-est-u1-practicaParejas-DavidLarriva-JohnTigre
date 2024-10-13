@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-Este proyecto es una **práctica en parejas** de la materia de **Estructura de Datos** donde crearemos y gestionaremos arreglos de números enteros en Java. 
+Este proyecto es una **práctica en parejas** de la materia de **Estructura de Datos** donde crearemos y gestionaremos arreglos de números enteros en Java, además nuestra app valida cada número ingresado por el usuario.
 
 ---
 
