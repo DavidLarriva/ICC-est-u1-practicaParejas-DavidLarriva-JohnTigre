@@ -1,5 +1,5 @@
 import java.util.Arrays;
-import java.util.Scanner;
+////////
 public class MetodosOrdenamiento {
 
     
@@ -159,13 +159,13 @@ public void ordenamientoBurbujaPlus(int[] arreglo, boolean iteraciones, boolean 
                 System.out.println("\tj=" + j + " [j]=" + arreglo[j] + " j+1=" + (j + 1) + " [j+1]=" + arreglo[j + 1]);
             }
 
-            // Comparación basada en el tipo de orden (ascendente o descendente)
+            
             if (ascendente ? arreglo[j] > arreglo[j + 1] : arreglo[j] < arreglo[j + 1]) {
                 if (iteraciones) {
                     System.out.println("\t\tIntercambio realizado");
                 }
 
-                // Intercambio de elementos
+                
                 aux = arreglo[j];
                 arreglo[j] = arreglo[j + 1];
                 arreglo[j + 1] = aux;
@@ -178,7 +178,7 @@ public void ordenamientoBurbujaPlus(int[] arreglo, boolean iteraciones, boolean 
             }
         }
 
-        // Si no hubo intercambios en la pasada, el arreglo ya está ordenado
+        
         if (!intercambiado) {
             if (iteraciones) {
                 System.out.println("No hubo intercambios, el arreglo está ordenado.");
